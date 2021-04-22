@@ -5,4 +5,8 @@
     </footer>
 
 </body>
+
+<script src="./lib/bootstrap/jquery/jquery-3.6.0.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+
 </html>
