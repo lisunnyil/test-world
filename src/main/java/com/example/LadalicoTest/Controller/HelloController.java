@@ -36,6 +36,19 @@ public class HelloController {
         mv.setViewName("hellotest"); // 띄워줄 jsp파일명
         return mv;
     }
+    @RequestMapping(value = "/Main") // 주소창에 적을 내용?
+    public ModelAndView Main() {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("Main"); // 띄워줄 jsp파일명
+        return mv;
+    }
+
+    @RequestMapping(value = "/Index") // 주소창에 적을 내용?
+    public ModelAndView Index() {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("Index"); // 띄워줄 jsp파일명
+        return mv;
+    }
 
     
 }
