@@ -50,5 +50,19 @@ public class HelloController {
         return mv;
     }
 
+    @RequestMapping(value = "/Login") // 주소창에 적을 내용?
+    public ModelAndView Login() {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("Login"); // 띄워줄 jsp파일명
+        return mv;
+    }
+
+    @RequestMapping(value = "/LoginCheck") // 주소창에 적을 내용?
+    public ModelAndView LoginCheck() {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName("LoginCheck"); // 띄워줄 jsp파일명
+        return mv;
+    }
+
     
 }
